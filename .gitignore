@@ -1,0 +1,45 @@
+[Libraries]
+/[Libraries]/*
+!/Libraries/ModuleManager.config
+
+# Unity
+[Libraries]
+/Library/
+
+# Logs and databases
+/logs
+*.log
+*.sql
+*.sqlite
+
+# Visual Studio
+.vscode/
+*.code-workspace
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.csproj
+*.pidb
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+
+# Mono auto generated files
+mono_crash.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
